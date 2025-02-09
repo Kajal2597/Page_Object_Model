@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Giva jwell  Application Test Automation Test Suite" verbose="2" parallel="classes" thread-count="5">
+
+        <listeners>
+            <listener class-name="pom.extendreportlistner.ExtentReporterNG" />
+        </listeners>
+
+    <test name="Giva jwell  Application Test Cases">
+        <classes>
+
+<!--            <class name="runner.TestRunner"/>-->
+
+                    <class name="co.giva.testcases.LoginPageTest"></class>
+
+<!--            <class name="co.giva.testcases.HomePageTest"></class>-->
+
+<!--            <class name="co.giva.testcases.PendalPageTest"></class>-->
+
+<!--            <class name="co.giva.testcases.ProductPageTest"></class>-->
+
+<!--            <class name="co.giva.testcases.MensJewelleryTest"></class>-->
+
+
+        </classes>
+    </test>
+    <!--cucumber Feature file -->
+
+</suite>
